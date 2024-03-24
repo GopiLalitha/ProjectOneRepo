@@ -48,9 +48,7 @@ public class TextElement {
 	
 	public static void loadUrl() {
 		
-		
 		try {
-			
 		WebDriver driver1=new ChromeDriver();
 		driver1.get("https://leafground.com/");
 		String url=driver1.getCurrentUrl();
